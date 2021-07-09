@@ -1,0 +1,14 @@
+CREATE TABLE `contactosproyecto` (
+  `IdContacto` int NOT NULL AUTO_INCREMENT,
+  `Nombre` varchar(45) NOT NULL,
+  `Mail` varchar(60) NOT NULL,
+  PRIMARY KEY (`IdContacto`),
+  KEY `Mail` (`Mail`) /*!80000 INVISIBLE */
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+
+ 
+
+
+
+extraida de workbench

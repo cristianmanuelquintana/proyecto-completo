@@ -9,7 +9,7 @@ router.get('/', function(req,res){
     //res.send("Esta la seccion contacto!")
     res.render('contact.hbs',{title:"Contacto"});
 })
-
+ 
 router.post('/', (req, res) => {
     console.log('error')
     const persona = req.body;
